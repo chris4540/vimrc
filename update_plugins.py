@@ -63,7 +63,14 @@ vim-indent-guides https://github.com/nathanaelkane/vim-indent-guides
 mru.vim https://github.com/vim-scripts/mru.vim
 editorconfig-vim https://github.com/editorconfig/editorconfig-vim
 dracula https://github.com/dracula/vim
+vim-desert256 https://github.com/brafales/vim-desert256
+molokai-dark https://github.com/pR0Ps/molokai-dark
+vim-supertab https://github.com/ervandew/supertab
+vim-toml https://github.com/cespare/vim-toml
 """.strip()
+
+# TODO:
+# Start from vim-desert256, download them to "my_plugins"
 
 GITHUB_ZIP = "%s/archive/master.zip"
 
