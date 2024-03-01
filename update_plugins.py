@@ -1,11 +1,3 @@
-try:
-    import concurrent.futures as futures
-except ImportError:
-    try:
-        import futures
-    except ImportError:
-        futures = None
-
 import re
 import shutil
 import tempfile
@@ -67,6 +59,7 @@ vim-desert256 https://github.com/brafales/vim-desert256
 molokai-dark https://github.com/pR0Ps/molokai-dark
 vim-supertab https://github.com/ervandew/supertab
 vim-toml https://github.com/cespare/vim-toml
+copilot.vim https://github.com/github/copilot.vim
 """.strip()
 
 # TODO:
@@ -112,10 +105,6 @@ if __name__ == "__main__":
     temp_directory = tempfile.mkdtemp()
 
     try:
-        if futures:
-            with futures.ThreadPoolExecutor(16) as executor:
-                executor.map(update, PLUGINS.splitlines())
-        else:
-            [update(x) for x in PLUGINS.splitlines()]
+        [update(x) for x in PLUGINS.splitlines()]
     finally:
         shutil.rmtree(temp_directory)
