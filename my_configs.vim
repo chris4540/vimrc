@@ -19,12 +19,7 @@ set colorcolumn=80,100,120
 highlight ColorColumn ctermbg=DarkMagenta
 
 " Color scheme
-try
-    set background=dark
-    set t_Co=256
-    colorscheme desert256
-catch
-endtry
+runtime theme.vim
 
 """""""""""""""""""""""""""""""""""""""
 " Custom File types

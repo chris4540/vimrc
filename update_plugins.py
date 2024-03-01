@@ -56,6 +56,7 @@ mru.vim https://github.com/vim-scripts/mru.vim
 editorconfig-vim https://github.com/editorconfig/editorconfig-vim
 dracula https://github.com/dracula/vim
 vim-desert256 https://github.com/brafales/vim-desert256
+tokyonight-vim https://github.com/ghifarit53/tokyonight-vim
 molokai-dark https://github.com/pR0Ps/molokai-dark
 vim-supertab https://github.com/ervandew/supertab
 vim-toml https://github.com/cespare/vim-toml
