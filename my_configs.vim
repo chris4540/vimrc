@@ -10,7 +10,7 @@ set number
 
 " Allow to use mouse
 set selectmode=mouse
-
+" set mouse=a
 " Show Commands
 set showcmd
 
@@ -35,7 +35,7 @@ au BufNewFile,BufRead *.cu,*.cl set ft=cpp
 " Custom Commands
 """""""""""""""""""""""""""""""""""""""
 " Delete command from the basic.vim
-delcommand W
+" delcommand W
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
