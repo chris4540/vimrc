@@ -10,7 +10,7 @@ set number
 
 " Allow to use mouse
 set selectmode=mouse
-" set mouse=a
+set mouse-=a
 " Show Commands
 set showcmd
 
